@@ -1,4 +1,5 @@
 import './App.css';
+import UseEffects from './components/playground/UseEffects';
 import UseReducers from './components/playground/UseReducers';
 
 import UseStates from './components/playground/UseStates';
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <UseStates /> 
       <UseReducers />
+      <UseEffects />
     </div>
   );
 }
